@@ -1,0 +1,96 @@
+
+<?xml-model href="relax3_witcher.rnc" type="application/relax-ng-compact-syntax"?>
+<Song>
+    <metaData>
+        <Title name="It's Alright">It’s Alright Lyrics</Title>
+        <Band name="Mother Mother">Mother Mother</Band>
+    </metaData>
+
+    <Intro>
+        <songP part="Intro" pNum="1">[Intro]</songP>
+        <lyrics>
+            <line>Oh, It's alright, oh</line>
+        </lyrics>
+    </Intro>
+
+    <Verse>
+        <songP part="Verse" pNum="1">[Verse]</songP>
+        <lyrics>
+            <line>Oh hey, I had a night I had a day</line>
+            <line>I did one million stupid things</line>
+            <line>I said one billion foolish things</line>
+            <line>I'm not okay, I got a baseball bat beside my bed</line>
+            <line>To <imp why="Personal">fight off what's inside my head</imp></line>
+            <line>To <imp why="Personal">fight off what's behind my meds</imp></line>
+            <line><imp why="Personal">I'm lonely; lost in pain</imp></line>
+        </lyrics>
+    </Verse>
+    <Chorus>
+        <songP part="Chorus" pNum="1">[Chorus]</songP>
+        <lyrics>
+            <line><imp why="Title">It's alright, it's okay, it's alright, it's okay</imp></line>
+            <line><imp why="Lesson">You're not a monster, just a human</imp></line>
+            <line>And you made a few mistakes</line>
+            <line>It's alright, it's okay, it's alright, it's okay</line>
+            <line><imp why="Lesson">You're not gruesome, just human</imp></line>
+            <line><imp why="Lesson">And you made a few mistakes</imp></line>
+            <line>It's alright, oh, it's okay, oh</line>
+        </lyrics>
+    </Chorus>
+
+    <Verse>
+        <songP part="Verse" pNum="2">[Verse 2]</songP>
+        <lyrics>
+            <line>Goddamn</line>
+            <line>I threw a brick right through the window</line>
+            <line>My life ignored the signals</line>
+            <line>I'm high and drunk on ego, can't see straight</line>
+            <line>So I just feel my way around and</line>
+            <line>I'm touching and I'm grabbing everything I can't be havin'</line>
+            <line><imp>I am broken down in shame</imp></line>
+        </lyrics>
+    </Verse>
+
+    <Chorus>
+        <songP part="Chorus" pNum="2">[Chorus 2]</songP>
+        <lyrics>
+            <line>It's alright, It's okay, it's alright, it's okay</line>
+            <line><imp why="Lesson">You're not a demon, there's a reason</imp></line>
+            <line><imp why="Lesson">You behaved in that way</imp></line>
+            <line>It's alright, it's okay, it's alright, it's okay</line>
+            <line>And <imp why="Personal">I believe, yes I believe that you will see a better day</imp></line>
+            <line>It's alright, oh, it's okay, oh, it's alright, oh</line>
+        </lyrics>
+    </Chorus>
+
+    <Bridge>
+        <songP part="Bridge" pNum="1">[Bridge]</songP>
+        <lyrics>
+            <line><imp why="Personal">I don't wanna know who I am</imp></line>
+            <line><imp why="Personal">'Cause heaven only knows what I'll find</imp></line>
+            <line>I don't wanna know <imp why="Personal">I'm not capable of coming out alive</imp></line>
+            <line>I don't wanna see what's inside</line>
+            <line>I think that I would rather be blind</line>
+            <line>I don't wanna know I'm not capable, I'm capable</line>
+        </lyrics>
+    </Bridge>
+
+    <Chorus>
+        <songP part="Chorus" pNum="3">[Chorus]</songP>
+        <lyrics>
+            <line>I'm alright, I'm okay, I'm alright, I'm okay</line>
+            <line><imp>I'm not a monster, I'm a human</imp></line>
+            <line><imp>And I've made a few mistakes</imp></line>
+            <line>I'm alright, I'm okay, I'm alright, I'm okay</line>
+            <line><imp>I'm not gruesome, just human</imp></line>
+            <line>And I've made a few</line>
+            <line>It's alright, It's okay, it's alright, it's okay</line>
+            <line><imp>You're not a demon, there's a reason</imp></line>
+            <line><imp>You behaved in that way</imp></line>
+            <line>It's alright, it's okay, it's alright, it's okay</line>
+            <line>I believe, yes I believe that you'll see a better day</line>
+            <line><outro>It's alright, oh, it's okay, oh, it's alright, oh</outro></line>
+        </lyrics>
+    </Chorus>
+
+</Song>

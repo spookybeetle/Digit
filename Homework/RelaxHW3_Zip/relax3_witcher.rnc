@@ -1,0 +1,25 @@
+start = Song
+Song = element Song { metaData, Intro, Verse, Chorus, Verse, Chorus, Bridge, Chorus }
+# So for this part above, does it need to be written in complete order like this, or is there a simpler way? I added a "?" and "*" after Verse and Chorus, but I kept being told that they were not allowed and either I needed and end tag or to have a Bridge again.
+metaData = element metaData { Title, Band }
+Title = element Title { name, text }
+name = attribute name { "It's Alright" | "Mother Mother" }
+Band = element Band { name, text }
+Intro = element Intro { songP, lyrics }
+songP = element songP { part, pNum, text }
+part = attribute part { "Intro" | "Verse" | "Chorus" | "Bridge" }
+pNum = attribute pNum { xsd:integer }
+lyrics = element lyrics { line+ }
+line =
+    element line {
+        mixed { imp | outro | empty }
+    }
+imp =
+    element imp {
+        mixed { why* }
+    }
+why = attribute why { "Title" | "Lesson" | "Personal" }
+outro = element outro { text }
+Verse = element Verse { songP, lyrics }
+Chorus = element Chorus { songP, lyrics }
+Bridge = element Bridge { songP, lyrics }
