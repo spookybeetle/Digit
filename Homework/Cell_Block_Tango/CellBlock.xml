@@ -1,0 +1,284 @@
+<?xml-model href="CellBlock.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metaData>
+        <line>
+            <title name="Cell Block Tango">Cell Block Tango Lyrics</title>
+        </line>
+        <line>
+            <writer name="Chita Rivera">Chita Rivera</writer>
+        </line>
+        <line>
+            <musical name="Chicago">Chicago: A Musical Vaudeville (Original Broadway Cast)</musical>
+        </line>
+    </metaData>
+
+    <Emcee tone="spoken">
+        <who>[EMCEE, spoken]</who>
+        <line>And now, the six merry murderesses of the Cook</line>
+        <line>County Jail In their rendition of '<title name="Cell Block Tango">The Cell Block
+                Tango</title>'!</line>
+    </Emcee>
+
+    <Girls tone="spoken">
+        <who>[GIRLS]</who>
+        <line>
+            <Liz>Pop!</Liz>
+            <Annie>Six!</Annie>
+            <June>Squish!</June>
+            <Hunyak>Uh uh!</Hunyak>
+            <Velma>Cicero,</Velma>
+            <Mona>Lipschitz!</Mona>
+        </line>
+        <line>
+            <Liz>Pop!</Liz>
+            <Annie>Six!</Annie>
+            <June>Squish!</June>
+            <Hunyak>Uh uh!</Hunyak>
+            <Velma>Cicero,</Velma>
+            <Mona>Lipschitz!</Mona>
+        </line>
+        <line>
+            <Liz>Pop!</Liz>
+            <Annie>Six!</Annie>
+            <June>Squish!</June>
+            <Hunyak>Uh uh!</Hunyak>
+            <Velma>Cicero,</Velma>
+            <Mona>Lipschitz!</Mona>
+        </line>
+        <line>
+            <Liz>Pop!</Liz>
+            <Annie>Six!</Annie>
+            <June>Squish!</June>
+            <Hunyak>Uh uh!</Hunyak>
+            <Velma>Cicero,</Velma>
+            <Mona>Lipschitz!</Mona>
+        </line>
+    </Girls>
+
+    <Girls tone="sang">
+        <line>He had it coming, he had it coming</line>
+        <line>He only had himself to blame!</line>
+        <line>If you'd have been there, if you'd have seen it</line>
+        <line>I betcha you would have done the same!</line>
+    </Girls>
+    <Girls tone="spoken">
+        <line>
+            <Liz>Pop!</Liz>
+            <Annie>Six!</Annie>
+            <June>Squish!</June>
+            <Hunyak>Uh uh!</Hunyak>
+            <Velma>Cicero,</Velma>
+            <Mona>Lipschitz!</Mona>
+        </line>
+    </Girls>
+
+    <Liz tone="spoken">
+        <who>[LIZ, spoken]</who>
+        <line>You know how people have these little habits that get you down?</line>
+        <line>Like...<person name="Bernie">Bernie! Bernie</person> liked to chew gum--no, not
+            chew.</line>
+        <line>
+            <trigger>Pop!</trigger>
+        </line>
+        <line>So, I came home this one day and I'm really irritated, looking for a little
+            simpathy;</line>
+        <line>and there's <person name="Bernie">Bernie</person>. Lying on the couch, drinking</line>
+        <line>a beer and <trigger t="gum">chewing--no, not chewing, POPPING!</trigger></line>
+        <line>So, I said to him, I said "<person name="Bernie">Bernie</person>, you pop that gum one
+            more time…"</line>
+        <line>And he did. So I took the shotgun off the wall and <crime what="shotgun">I fired two
+                warning shots</crime></line>
+    </Liz>
+
+    <Liz tone="spoken">
+        <line>
+            <crime>Into his head!</crime>
+        </line>
+    </Liz>
+
+    <Girls tone="sang">
+        <who>[LIZ &amp; GIRLS]</who>
+        <line>He had it coming, he had it coming</line>
+        <line>He only had himself to blame!</line>
+        <line>If you'd have been there, if you'd have heard it</line>
+        <line>I betcha you would have done the same</line>
+    </Girls>
+
+    <Annie tone="spoken">
+        <who>[ANNIE, spoken]</who>
+        <line>I met <person name="Ezekiel Young">Ezekiel Young</person> from Salt Lake City about
+            two years ago</line>
+        <line>and he told me he was single and we hit it off right away. So, we</line>
+        <line>started living together. He'd go to work, he'd come home, I'd mix</line>
+        <line>him a drink, we'd have dinner. It was like heaven in two and a half</line>
+        <line>rooms</line>
+        <line>And then I found out, <trigger>single he told me? Single my ass!</trigger> Not
+            only</line>
+        <line>was he married, oh no! <trigger t="liar">he had six wives</trigger>; one of those
+            Mormons,</line>
+        <line>you know?</line>
+        <line>So that night, when he came home, <crime>I mixed him his drink as</crime></line>
+        <line>usual…</line>
+        <line>You know, <crime what="poison">some guys just can't hold their arsenic!</crime></line>
+    </Annie>
+
+    <Girls tone="sang">
+        <who>[ANNIE &amp; GIRLS]</who>
+        <line>He had it coming, he had it coming</line>
+        <line>He took a flower in its prime!</line>
+        <line>And then he used it; and he abused it</line>
+        <line>It was a murder, but not a crime!</line>
+    </Girls>
+
+    <June tone="spoken">
+        <who>[JUNE, spoken]</who>
+        <line>Now, I'm standing in the kitchen, I'm carving up the chicken</line>
+        <line>for dinner, minding my own business, and in storms my husband</line>
+        <line><person name="Wilbur">Wilbur</person> in a jealous rage</line>
+        <line><trigger>"You been screwing the milkman!" he said. He was crazy</trigger>, and
+            he</line>
+        <line>kept on screaming, <trigger t="Aggressive">"You been screwing the
+            milkman!"</trigger></line>
+        <line>
+            <crime>And then he ran into my knife.</crime>
+        </line>
+        <line>
+            <crime what="knife">He ran into my knife ten times</crime>
+        </line>
+    </June>
+
+    <Girls tone="sang">
+        <line>If you'd have been there, if you'd have seen it</line>
+        <line>I betcha you would have done the same!</line>
+    </Girls>
+
+    <Hunyak tone="spoken" spoken="Hungarian">
+        <who>[HUNYAK, spoken]</who>
+        <line language="Hungarian">Mit keresek én itt? Azt mondják, a híres lakóm lefogta a férjem,
+            én</line>
+        <line language="Hungarian">meg lecsaptam a fejét. De nem igaz. Én ártatlan vagyok.
+            Nem</line>
+        <line language="Hungarian">tudom, miért mondja Uncle Sam, hogy én tettem. Próbáltam a</line>
+        <line language="Hungarian">rendőrségen megmagyarázni, de nem értették meg</line>
+    </Hunyak>
+
+    <June tone="spoken">
+        <who>[JUNE, spoken]</who>
+        <line>But did you do it?</line>
+    </June>
+
+    <Hunyak tone="spoken" spoken="English">
+        <who>[HUNYAK, spoken]</who>
+        <line>Uh uh, not guilty!</line>
+    </Hunyak>
+
+    <Velma tone="spoken">
+        <who>[VELMA, spoken]</who>
+        <line>My sister, <person name="Veronica">Veronica</person> and I had this double act. And my
+            husband, </line>
+        <line><person name="Charlie">Charlie</person>, used travel around with us. Now, for the last
+            number in </line>
+        <line>our act, we did 20 acrobatic tricks in a row--one, two, three, four, </line>
+        <line>five, splits, spread eagles, back flips, flip flops, one right after the </line>
+        <line>other! Well, this one night we were in Cicero, the three of us, </line>
+        <line>sittin' up in a hotel room boozing and having a few laughs. And </line>
+        <line>we ran out of ice, so I went out to get some</line>
+        <line>I come back, open the door…</line>
+        <line><trigger>There's <person name="Veronica">Veronica</person> and <person name="Charlie"
+                    >Charlie</person></trigger> doing number seventeen… the</line>
+        <line>
+            <trigger t="cheating">spread eagle!</trigger>
+        </line>
+        <line>Well, I was in such a state of shock, <crime>I completely blacked out</crime>.
+            I</line>
+        <line>
+            <crime>can't remember a thing. It wasn't until later, when I was washing</crime>
+        </line>
+        <line>
+            <crime>the blood off my hands, I even knew they were dead!</crime>
+        </line>
+    </Velma>
+
+    <Velma tone="sang">
+        <who>[VELMA &amp; GIRLS]</who>
+        <line>They had it coming, they had it coming!</line>
+        <line>They had it coming all along!</line>
+        <line>I didn't do it, but if I'd done it</line>
+        <line>How could you tell me that I was wrong?</line>
+        <line>They had it coming, they had it coming!</line>
+        <line>They had it coming all along!</line>
+        <line sang="Secondary">(They took a flower in its prime)</line>
+        <line>I didn't do it, but if I'd done it</line>
+        <line sang="Secondary">(And then they used it, and they abused it)</line>
+        <line>How could you tell me that I was wrong?</line>
+        <line sang="Secondary">(It was a murder but not a crime)</line>
+    </Velma>
+
+    <Mona tone="spoken">
+        <who>[MONA, spoken]</who>
+        <line>I loved <person name="Alvin Lipschitz">Alvin Lipschitz</person></line>
+        <line>More than I can possibly say</line>
+        <line>He was a real artistic guy, sensitive, a painter. But he was </line>
+        <line>troubled, he was always trying to “find himself”. He'd go out </line>
+        <line>
+            <trigger t="cheating">every night looking for himself, and along the way, he
+                found…</trigger>
+        </line>
+        <line><trigger><person name="Ruth">Ruth</person>, <person name="Gladys">Gladys</person>,
+                    <person name="Rosemary">Rosemary</person> and <person name="Irving"
+                    >Irving</person></trigger>.</line>
+        <line>I guess you can say we broke up because of artistic differences.</line>
+        <line>
+            <crime>He saw himself as alive</crime>
+        </line>
+        <line>
+            <crime>And I saw him dead!</crime>
+        </line>
+    </Mona>
+
+    <Girls tone="sang">
+        <who>[GIRLS]</who>
+        <line>The dirty bum, bum, bum, bum, bum!</line>
+        <line>The dirty bum, bum, bum, bum, bum!</line>
+    </Girls>
+
+    <Girls tone="sang">
+        <line>They had it coming, they had it coming</line>
+        <line>They had it coming all along!</line>
+        <line>'Cause if they used us, and they abused us</line>
+        <line>How could they tell us that we were wrong?</line>
+    </Girls>
+
+    <Girls tone="sang">
+        <line>He had it coming, he had it coming</line>
+        <line>He only had himself to blame!</line>
+        <line>If you'd have been there, if you'd have seen it</line>
+        <line>I betcha you would have done the same--</line>
+    </Girls>
+
+    <Girls tone="spoken">
+        <who>[GIRLS, spoken]</who>
+        <line>
+            <Liz>You pop that gum one more time--</Liz>
+        </line>
+        <line>
+            <Annie>Single my ass--</Annie>
+        </line>
+        <line>
+            <June>Ten times--</June>
+        </line>
+        <line>
+            <Hunyak>Miért csukott Uncle Sam börtönbe!</Hunyak>
+        </line>
+        <line>
+            <Velma>Number seventeen, the spread eagle!</Velma>
+        </line>
+        <line>
+            <Mona>Artistic differences—</Mona>
+        </line>
+    </Girls>
+
+    <Girls tone="sang">(sung) <line>I betcha you would have done</line>
+        <line>The same!</line></Girls>
+
+</song>
