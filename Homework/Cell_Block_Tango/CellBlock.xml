@@ -1,4 +1,5 @@
-<?xml-model href="CellBlock.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="CellBlock2.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <metaData>
         <line>
