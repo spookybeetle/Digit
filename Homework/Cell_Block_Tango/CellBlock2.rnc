@@ -1,0 +1,48 @@
+start= song
+song = element song {metaData, Emcee, (Girls | Liz | Annie | June | Hunyak | Velma | Mona)*}
+
+#all attributes found throughout doc
+tone= attribute tone {"spoken" | "sang"}
+name = attribute name {text}
+t = attribute t {text}
+what = attribute what {text}
+language = attribute language {"Hungarian" | "English"}
+sang = attribute sang {"Secondary"}
+n = attribute n {xsd:integer}
+
+#line definition, and all elements found in line
+line = element line {(title | writer | musical | Liz | Annie | June | Hunyak | Velma | Mona | person | trigger | crime | text)*, n?, (language | sang)*}
+title = element title {name, text}
+writer = element writer {name, text}
+musical = element musical {name, text}
+person = element person {name, text}
+trigger = element trigger {t*, mixed{person*}}
+crime = element crime {what*, text}
+
+metaData = element metaData {line+}
+#lines contain title, writer, and musical
+
+Emcee = element Emcee {tone, mixed{who, line+}}
+who = element who {text}
+
+Girls = element Girls {tone?, mixed{who*, line*}}
+#lines contain Liz, Annie, June, Hunyak, Velma, and Mona
+
+Liz = element Liz {who*, line*, tone?, text}
+#lines contain element person with attribute name, trigger with attribute t, and crime with attribute what
+
+Annie = element Annie {tone?, mixed{who*, line*}}
+
+June = element June {tone?, mixed{who*, line*}}
+
+Hunyak = element Hunyak {tone?, spoken*, mixed{who*, line*}}
+spoken = attribute spoken {"Hungarian" | "English"}
+#lines contain attribute language, definition "HUngarian"
+
+Velma = element Velma {tone?, mixed{who*, line*}}
+#in line element trigger contains element person, and line has attribute sang with definition "Secondary"
+
+Mona = element Mona {tone?, mixed{who*, line*}}
+
+#optional attribute of n for element line
+
