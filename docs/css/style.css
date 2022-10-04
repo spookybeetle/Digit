@@ -1,40 +1,113 @@
 @charset "UTF-8";
-.body h1 {
-    color: #8C5AB6;
-    text-decoration: underline;
-    text-align: center;
-}
-.body p {
-    color: #8C5AB6;
-    text-align: center;
-}
+
 .body {
-    background-color: #EACDF8;
+    background-color: #FED2A1;
 }
 .nav {
+    margin-top: -77px;
+    margin-left: 2px;
+    padding-left: 152px;
+}
+.body h1 {
+    color: #292929;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Magic Owl Personal Use";
+    font-size: 62pt;
+}
+.h2 {
+}
+.body p {
+    color: #100D0A;
+    text-align: left;
+}
+.content {
+    background-color: #FEE5C8;
+    width: 540px;
+    padding-left: 50px;
+    margin-left: 167px;
+    padding-right: 50px;
+    opacity: 0.94;
+    height: 540px;
+    margin-right: 54px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: medium double #E9583D;
 }
 .div {
-    width: 130px;
+    width: 201px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border-top-color: #8C5AB6;
-    /* [disabled]border-left-style: groove; */
-    /* [disabled]border-right-style: groove; */
-    /* [disabled]border-bottom-style: groove; */
-    border-top-style: groove;
-    border-width: 11px 6px 6px;
     color: #8C5AB6;
     text-align: center;
-    font-size: 28px;
+    font-size: 14pt;
     display: inherit;
     float: left;
     clear: none;
-    background-color: #F8ECFF;
+    background-color: #E9583D;
 }
 .div2 {
     font-size: 14pt;
 }
-.div1 {
-    border: thick groove #8C5AB6;
+	a:link {
+
+  color: #FED2A1; 
+
+  background-color: transparent; 
+
+  text-decoration: none;
+
+}
+
+
+a:visited {
+
+  color: #FED2A1;
+
+  background-color: transparent;
+
+  text-decoration: none;
+
+}
+
+
+a:hover {
+
+  color: #FED2A1;
+
+  background-color: transparent;
+
+  text-decoration: underline;
+
+}
+
+
+a:active {
+
+  color: #FED2A1;
+
+  background-color: transparent;
+
+  text-decoration: underline;
+
+}
+}
+
+@media (max-width : 1214px ){
+}
+
+@media (min-width : -41px ){
+}
+.sideBar {
+    background-color: #FFE3C5;
+    border-style: double;
+    border-color: #E9583D;
+    width: 144px;
+    height: 540px;
+    padding-left: 10px;
+    left: 0px;
+    float: right;
+    margin-top: -548px;
+    margin-right: 106px;
 }
