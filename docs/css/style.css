@@ -2,18 +2,25 @@
 
 .body {
     background-color: #FED2A1;
+    background-repeat: repeat;
+    background-size: 129px auto;
+    background-image: url(../images/cats.png);
 }
 .nav {
     margin-top: -77px;
     margin-left: 2px;
-    padding-left: 152px;
+    padding-left: 274px;
+    padding-top: 26px;
 }
 .body h1 {
     color: #292929;
     text-decoration: none;
-    text-align: center;
     font-family: "Magic Owl Personal Use";
     font-size: 62pt;
+    padding-bottom: 25px;
+    border-color: #FED2A1;
+    /* [disabled]width: 182px; */
+    text-align: center;
 }
 .h2 {
 }
@@ -24,11 +31,10 @@
 .content {
     background-color: #FEE5C8;
     width: 540px;
-    padding-left: 50px;
-    margin-left: 167px;
-    padding-right: 50px;
+    padding-left: 40px;
+    margin-left: 373px;
+    padding-right: 40px;
     opacity: 0.94;
-    height: 540px;
     margin-right: 54px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -94,7 +100,7 @@ a:active {
 }
 }
 
-@media (max-width : 1214px ){
+@media (max-width : 1390px ){
 }
 
 @media (min-width : -41px ){
@@ -108,6 +114,88 @@ a:active {
     padding-left: 10px;
     left: 0px;
     float: right;
-    margin-top: -548px;
-    margin-right: 106px;
+    margin-top: -799px;
+    margin-right: 206px;
+}
+.titleBox {
+    background-color: #FED2A1;
+    /* [disabled]display: block; */
+    /* [disabled]-webkit-box-sizing: content-box; */
+    /* [disabled]-moz-box-sizing: content-box; */
+    /* [disabled]box-sizing: content-box; */
+    opacity: 0.74;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.imageCl {
+    float: left;
+    border: thick dotted #CDA16D;
+}
+.imageUm {
+    border: thick dotted #CDA06D;
+    margin-left: 67px;
+}
+.dataInfo {
+    margin-left: 136px;
+    border: thick dotted #CDA16D;
+}
+.catData {
+    border: thick dotted #CDA16D;
+}
+.twoCats {
+    border: thick dotted #CDA16D;
+}
+.div2Cats {
+    width: 205px;
+    height: 0px;
+    text-align: center;
+}
+.jar {
+    float: right;
+    border: thick dotted #CDA16D;
+}
+.divJar {
+    width: 154px;
+    height: 0px;
+    margin-left: 355px;
+    text-align: center;
+}
+.fox {
+    margin-top: 66px;
+    margin-left: 124px;
+    border: thick dotted #CDA16D;
+}
+.divFox {
+    width: 232px;
+    margin-left: 160px;
+    text-align: center;
+}
+.flareon {
+    margin-left: 123px;
+    border: thick dotted #CDA16D;
+}
+.flareondiv {
+    text-align: center;
+    width: 248px;
+    margin-left: 156px;
+}
+.chipTune {
+    margin-left: 124px;
+    border: thick dotted #CDA16D;
+}
+.divChip {
+    width: 152px;
+    text-align: center;
+    margin-left: 206px;
+}
+.Degree {
+    width: 51px;
+    background-color: #A01517;
+}
+.Resume {
+    width: 615px;
+    background-color: #FFE3C5;
+    margin-left: -36px;
+    margin-right: 60px;
+    font-size: large;
 }
