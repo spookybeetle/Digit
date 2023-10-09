@@ -5,8 +5,8 @@ window.addEventListener('DOMContentLoaded',init,false);
 function init() {
 var buttons = document.getElementsByTagName("button")
     alert('The page loaded!');
-}
-// This one tells the log when something is copied and pasted from the site
+    
+    // This one tells the log when something is copied and pasted from the site
 navigator.clipboard
   .readText()
   .then(
@@ -40,6 +40,8 @@ document.addEventListener(
   },
   false,
 );
+}
+
 
 
      
